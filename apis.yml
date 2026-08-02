@@ -1,8 +1,23 @@
 aid: whisper-aero
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/whisper-aero.png
 name: Whisper Aero
-description: 'Whisper Aero is a company surfaced as a portfolio company of kindred-ventures, lux-capital,
-  menlo-ventures and added to the API Evangelist network as a stub for enrichment. Sector: mobility-logistics.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Whisper Aero is a Crossville, Tennessee based aerospace company developing
+  ultra-quiet electric ducted-fan propulsion that converts electricity into thrust with roughly
+  20 percent more efficiency and 20 dB less noise than conventional systems, scaling from 5 to 500
+  pounds of thrust and 40 to 400 knots for aviation, defense, and commercial applications. Backed by
+  Kindred Ventures, Lux Capital, and Menlo Ventures. The company is a hardware manufacturer and, as of
+  this enrichment pass, publishes no public developer API, portal, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/whisper-aero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Mobility Logistics
+- Aerospace
+- Electric Propulsion
+- Aviation
+- Defense
+- Manufacturing
+- Cleantech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/whisper-aero-domain-security.yml
 - type: Website
-  url: https://whisperaero.com/
+  url: https://www.whisper.aero/
+- type: Blog
+  url: https://www.whisper.aero/news
+- type: PrivacyPolicy
+  url: https://www.whisper.aero/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.whisper.aero/legal/terms-and-conditions
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
